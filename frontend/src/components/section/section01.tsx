@@ -16,7 +16,10 @@ export default function Section01() {
 
             mm.add('(min-width: 1024px)', () => {
                 gsap.to('.left-card', {
-                    x: '1vw',
+                    y: -5,
+                    opacity: 1,
+                    duration: 1,
+                    ease: 'power2.out',
                     scrollTrigger: {
                         trigger: '.left-card',
                         start: 'top bottom',
@@ -25,7 +28,10 @@ export default function Section01() {
                     },
                 });
                 gsap.to('.right-card', {
-                    x: '-1vw',
+                    y: -5,
+                    opacity: 1,
+                    duration: 1,
+                    ease: 'power2.out',
                     scrollTrigger: {
                         trigger: '.right-card',
                         start: 'top bottom',
@@ -65,17 +71,18 @@ export default function Section01() {
             });
 
             gsap.to('.mid-card', {
-                    opacity: 1,
-                    filter: 'blur(0px)',
-                    duration: 1,
-                    ease: 'power2.out',
-                    scrollTrigger: {
-                        trigger: '.mid-card',
-                        start: 'top bottom',
-                        end: 'bottom 10%',
-                        scrub: true,
-                    },
-                });
+                y:-5,
+                opacity: 1,
+                filter: 'blur(0px)',
+                duration: 1,
+                ease: 'power2.out',
+                scrollTrigger: {
+                    trigger: '.mid-card',
+                    start: 'top bottom',
+                    end: 'bottom 10%',
+                    scrub: true,
+                },
+            });
             return () => {
                 mm.revert();
             };
