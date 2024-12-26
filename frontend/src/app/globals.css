@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --background: #171717;
+    --foreground: #ffffff;
+    --star-poisition: 50%;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #171717;
+        --foreground: #ffffff;
+    }
+}
+
+@font-face {
+    font-family: 'NaniFont';
+    src: url('/fonts/NaniFont-Bold.ttf') format('woff');
+}
+
+body {
+    color: var(--foreground);
+    background: var(--background);
+    font-family: 'NaniFont',sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+}
+
+.star{
+    filter: drop-shadow(16px 16px 20px purple);
+    position: relative;
+}
+
+.star::after{
+    content: "";
+    @apply fixed border-2 border-white w-[40%] h-[40%] rotate-45;
+    z-index: -1;
+}
+
+.star::before{
+    content: "";
+    @apply fixed border-2 border-solid border-white w-screen h-[2px];
+    z-index: -1;
+}
+
+.card-container{
+    @apply h-[70%] w-screen flex flex-col items-center
+
+    /*  lg  */
+        lg:flex-row
+    ;
+}
+
+.card {
+    @apply w-[38vh] m-2 lg:w-full z-[-1] border-2 border-solid border-white
+    lg:opacity-100 phone:opacity-0;
+}
+
+/* 具体卡片类继承基础卡片类并添加特有样式 */
+.left-card {
+    @apply card transform lg:translate-x-[-40vh];
+}
+
+.right-card {
+    @apply card transform lg:translate-x-[40vh];
+}
+
+.mid-card {
+    @apply card;
+}
+
+.section01-title{
+    @apply absolute left-[50%] transform translate-x-[-50%] w-full
+            lg:top-[120px] phone:top-[60px] sm:text-[5vw] phone:text-[30px] text-center;
+}
+
+.icon{
+    @apply hover:scale-105 hover:cursor-pointer;
+}
