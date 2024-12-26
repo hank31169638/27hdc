@@ -1,5 +1,5 @@
 import Image from "next/image";
-import {useRef, useEffect} from "react";
+import {useRef} from "react";
 import {useGSAP} from "@gsap/react";
 import {ScrollTrigger} from "gsap/ScrollTrigger"
 import gsap from "gsap";
