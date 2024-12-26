@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de5846be-ddef-4527-ac29-054fc9544f8d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/common/header-icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/common/header-icon.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/common/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/common/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/section/section01.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/section/section01.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="de5846be-ddef-4527-ac29-054fc9544f8d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +73,7 @@
       <workItem from="1735034951146" duration="20179000" />
       <workItem from="1735127367389" duration="8134000" />
       <workItem from="1735199966265" duration="762000" />
-      <workItem from="1735228098923" duration="8472000" />
+      <workItem from="1735228098923" duration="9027000" />
     </task>
     <servers />
   </component>

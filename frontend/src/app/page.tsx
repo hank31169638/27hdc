@@ -1,7 +1,5 @@
 'use client'
 
-
-import Image from "next/image";
 import Section00 from "@/components/section/section00";
 import Section01 from "@/components/section/section01";
 
