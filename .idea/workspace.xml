@@ -5,8 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de5846be-ddef-4527-ac29-054fc9544f8d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/dance_style/breaking.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/dance_style/feminine.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/dance_style/hiphop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/dance_style/house.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/dance_style/locking.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/dance_style/popping.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/hdc_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/style_intro/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/section/winter_vacation/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/section/winter_vacation/index_components/dance-style-line.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/section/winter_vacation/section-breaking.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/section/winter_vacation/section-female.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/section/winter_vacation/section-hiphop.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/section/winter_vacation/section-house.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/section/winter_vacation/section-index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/section/winter_vacation/section-locking.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/section/winter_vacation/section-popping.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/section01.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/loading.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/loading.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/loading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/loading.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/winter_vacation_train/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/winter_vacation_train/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/common/header-icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/common/header-icon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/common/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/common/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/section/section00.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/section/homepage/section00.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/section/section01.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/section/homepage/section01.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +50,7 @@
         <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -39,24 +71,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/hank3/OneDrive/DeskTop/Program Language/web/bookstore_demo/frontend",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\hank3\\OneDrive\\DeskTop\\Program Language\\web\\bookstore_demo\\frontend\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hank3/OneDrive/DeskTop/Program Language/web/bookstore_demo/frontend&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\hank3\\OneDrive\\DeskTop\\Program Language\\web\\bookstore_demo\\frontend\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hank3\OneDrive\DeskTop\Program Language\web\bookstore_demo\frontend\src\components\section\winter_vacation\some_components" />
+      <recent name="C:\Users\hank3\OneDrive\DeskTop\Program Language\web\bookstore_demo\frontend\src\components\section\homepage" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -77,6 +115,8 @@
       <workItem from="1735127367389" duration="8134000" />
       <workItem from="1735199966265" duration="762000" />
       <workItem from="1735228098923" duration="11133000" />
+      <workItem from="1735293880474" duration="5460000" />
+      <workItem from="1735311832284" duration="2367000" />
     </task>
     <servers />
   </component>

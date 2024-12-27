@@ -1,7 +1,7 @@
 'use client'
 
-import Section00 from "@/components/section/section00";
-import Section01 from "@/components/section/section01";
+import Section00 from "@/components/section/homepage/section00";
+import Section01 from "@/components/section/homepage/section01";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
@@ -47,7 +47,7 @@ export default function Home() {
 
     return (
         <div className="relative w-full flex flex-col justify-center items-center">
-            <div ref={section0Ref} className="w-full">
+            <div ref={section0Ref} className="w-full opacity-0">
                 <Section00/>
             </div>
             <div ref={section1Ref}>

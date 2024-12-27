@@ -7,7 +7,7 @@ export default function Section00() {
             <div className="absolute text-[15vw] z-[-1] md:top-[5%] phone:top-[100px]"><i>
                 NTUST HDC
             </i></div>
-            <Image src={'/section01.png'}
+            <Image src={'/index.png'}
                    alt={'Loading'}
                    width={900}
                    height={900}

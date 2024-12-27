@@ -16,14 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: '台科大熱舞設',
+  title: '台科大熱舞社',
   description: '熱舞社建置的簡單網站',
   keywords: '台科熱舞,台科大,台灣科技大學,ntust,ntusthdc,hdc,Ntust,NTUST,HDC',
-  openGraph: {
-    title: '熱舞社成發',
-    description: '2024/12/22 期末熱舞小成舞展',
-    images: ['/card_mid.jpg'],
-  }
 }
 
 export default function RootLayout({

@@ -6,7 +6,7 @@ export default function HeaderIcon() {
     const iconSrcLink = ["https://www.instagram.com/ntust_hdc/", "https://www.facebook.com/NTUST.HDC", "https://www.youtube.com/channel/UCr3bdKBikyXCd41djDYS-Kw"]
 
     return (
-        <div className="flex flex-row gap-x-6 pr-16">
+        <div className="flex flex-row items-center md:gap-x-6 phone:gap-x-2 md:pr-16 phone:pr-4">
             {iconSrcList.map((src, index) => (
                 <div key={index} className="icon">
                     <a href={iconSrcLink[index]} target="_blank">

@@ -23,39 +23,42 @@
 body {
     color: var(--foreground);
     background: var(--background);
-    font-family: 'NaniFont',sans-serif;
+    font-family: 'NaniFont', sans-serif;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    z-index: 0;
 }
 
 section {
-  width: 100%;
-  height: 100vh;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
 }
 
-.star{
+.star {
     filter: drop-shadow(16px 16px 20px purple);
     position: relative;
 }
 
-.star::after{
+.star::after {
     content: "";
     @apply fixed border-2 border-white w-[40%] h-[40%] rotate-45;
     z-index: -1;
 }
 
-.star::before{
+.star::before {
     content: "";
     @apply fixed border-2 border-solid border-white w-screen h-[2px];
     z-index: -1;
 }
 
-.card-container{
+.card-container {
     @apply h-[70%] w-screen flex flex-col items-center
 
-    /*  lg  */
-        lg:flex-row
+        /*  lg  */
+    lg:flex-row
     ;
 }
 
@@ -78,47 +81,50 @@ section {
     @apply card;
 }
 
-.section01-title{
+.section01-title {
     @apply absolute left-[50%] transform translate-x-[-50%] w-full
-            lg:top-[120px] phone:top-[60px] sm:text-[5vw] phone:text-[30px] text-center;
+    lg:top-[120px] phone:top-[60px] sm:text-[5vw] phone:text-[30px] text-center;
 }
 
-.icon{
-    @apply hover:scale-105 hover:cursor-pointer;
+.header {
+    @apply fixed w-full h-[80px] flex justify-between items-center z-[1001] gap-x-8 isolate;
 }
 
-.header{
-    @apply fixed w-full h-[80px] flex justify-end items-center z-[1001] gap-x-8
-    ;
+.icon {
+    @apply hover:scale-105 hover:cursor-pointer phone:w-[20px] md:w-auto;
+}
+
+.hdc-icon img {
+    @apply rounded-xl duration-300 hover:scale-110 ml-6;
 }
 
 
-a {
-  position: relative;
-  text-decoration: none; /* 移除默认下划线 */
+.hyper-link {
+    @apply md:w-[97px] phone:w-[70px];
+    position: relative;
+    text-decoration: none; /* 移除默认下划线 */
 }
 
 /* 下划线元素 */
-a::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -2px; /* 下划线距离文字的距离，可根据需要调整 */
-  width: 100%;
-  height: 2px; /* 下划线的高度，可根据需要调整 */
-  background-color: skyblue; /* 下划线颜色，与文字颜色相同 */
-  transform: scaleX(0);
-  transform-origin: right;
-  transition: transform 0.3s ease;
+.hyper-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* 下划线距离文字的距离，可根据需要调整 */
+    width: 100%;
+    height: 2px; /* 下划线的高度，可根据需要调整 */
+    background-color: skyblue; /* 下划线颜色，与文字颜色相同 */
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
 }
 
 /* 悬停时的下划线动画 */
-a:hover::after,
-a:focus::after {
-  transform: scaleX(1);
-  transform-origin: left;
+.hyper-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
 }
 
-a:checked::after {
-  transform: scaleX(0);
+.hyper-link:checked::after {
+    transform: scaleX(0);
 }
