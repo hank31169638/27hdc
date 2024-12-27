@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de5846be-ddef-4527-ac29-054fc9544f8d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/style_intro/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/style_intro/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/winter_vacation/index_components/dance-style-line.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/winter_vacation/index_components/dance-style-line.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/winter_vacation/section-index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/winter_vacation/section-index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +86,7 @@
       <workItem from="1735199966265" duration="762000" />
       <workItem from="1735228098923" duration="11133000" />
       <workItem from="1735293880474" duration="5460000" />
-      <workItem from="1735311832284" duration="8456000" />
+      <workItem from="1735311832284" duration="8755000" />
     </task>
     <servers />
   </component>

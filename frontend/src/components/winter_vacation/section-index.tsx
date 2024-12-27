@@ -1,5 +1,5 @@
 import DanceStyleLine from "@/components/winter_vacation/index_components/dance-style-line";
-import React, {useRef} from "react";
+import React from "react";
 
 interface DanceStyleLineProps {
     onStyleClick: (id: string) => void;
