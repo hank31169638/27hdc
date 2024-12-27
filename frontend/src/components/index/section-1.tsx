@@ -7,7 +7,7 @@ import gsap from "gsap";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
-export default function Section01() {
+export default function Section1() {
 
     const container = useRef(null);
     useGSAP(

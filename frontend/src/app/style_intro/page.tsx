@@ -8,7 +8,7 @@ import {
     SectionHouse,
     SectionLocking,
     SectionPopping
-} from "@/components/section/winter_vacation";
+} from "../../components/winter_vacation";
 
 export default function Page() {
 
@@ -19,7 +19,7 @@ export default function Page() {
     };
 
     return (
-        <div className="h-screen overflow-y-scroll scroll-smooth snap-y snap-mandatory">
+        <div className="h-screen overflow-y-scroll scroll-smooth snap-y snap-mandatory text-2xl">
             <SectionIndex onStyleClick={handleStyleClick}/>
 
             <SectionHiphop/>

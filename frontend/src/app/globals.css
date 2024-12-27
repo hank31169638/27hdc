@@ -100,7 +100,7 @@ section {
 
 
 .hyper-link {
-    @apply md:w-[97px] phone:w-[70px];
+    @apply md:w-[97px] phone:w-[70px] text-center;
     position: relative;
     text-decoration: none; /* 移除默认下划线 */
 }

@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 
-export default function Section00() {
+export default function Section0() {
     return (
         <section className="star flex h-screen justify-center items-center relative">
             <div className="absolute text-[15vw] z-[-1] md:top-[5%] phone:top-[100px]"><i>

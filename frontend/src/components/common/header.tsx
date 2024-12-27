@@ -11,7 +11,6 @@ export default function Header() {
             </a>
 
             <div className="flex flex-row md:gap-x-8 phone:gap-x-6">
-
                 <div className="text-2xl flex flex-row gap-x-6">
                     <Link href="/winter_vacation_train" className="hyper-link">寒訓師資</Link>
                     <Link href="/style_intro" className="hyper-link">舞風介紹</Link>
