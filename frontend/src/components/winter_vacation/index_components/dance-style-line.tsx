@@ -17,7 +17,7 @@ const DanceStyleLine: React.FC<DanceStyleLineProps> = ({ onStyleClick }) => {
         { name: 'Locking', id: 'locking', image: '/dance_style/locking.jpg' },
         { name: 'Breaking', id: 'breaking', image: '/dance_style/breaking.jpg' },
         { name: 'House', id: 'house', image: '/dance_style/house.jpg' },
-        { name: 'Feminine Style', id: 'feminine-style', image: '/dance_style/feminine.jpg' },
+        { name: 'Feminine Style', id: 'feminine', image: '/dance_style/feminine.jpg' },
     ];
 
 
