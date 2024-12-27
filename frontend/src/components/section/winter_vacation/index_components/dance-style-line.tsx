@@ -30,7 +30,7 @@ const DanceStyleLine: React.FC<DanceStyleLineProps> = ({ onStyleClick }) => {
 
                 {/* 舞種節點容器 */}
                 <div className="relative flex justify-between items-center px-[10%]">
-                    {danceStyles.map((style, index) => (
+                    {danceStyles.map((style, _) => (
                         <div
                             key={style.id}
                             className="relative group cursor-pointer"
