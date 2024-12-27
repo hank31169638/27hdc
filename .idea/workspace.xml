@@ -5,30 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de5846be-ddef-4527-ac29-054fc9544f8d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/winter_vacation/section-breaking.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/winter_vacation/section-feminine.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/winter_vacation/section-hiphop.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/winter_vacation/section-house.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/winter_vacation/section-locking.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/winter_vacation/section-popping.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/style_intro/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/style_intro/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/common/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/common/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/section/homepage/section00.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/index/section-0.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/section/homepage/section01.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/index/section-1.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/section/winter_vacation/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/winter_vacation/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/section/winter_vacation/index_components/dance-style-line.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/winter_vacation/index_components/dance-style-line.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/section/winter_vacation/section-breaking.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/section/winter_vacation/section-female.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/section/winter_vacation/section-hiphop.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/section/winter_vacation/section-house.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/section/winter_vacation/section-index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/winter_vacation/section-index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/section/winter_vacation/section-locking.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/section/winter_vacation/section-popping.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/winter_vacation/index_components/dance-style-line.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/winter_vacation/index_components/dance-style-line.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/winter_vacation/section-index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/winter_vacation/section-index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +20,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="CSS File" />
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -108,7 +88,7 @@
       <workItem from="1735199966265" duration="762000" />
       <workItem from="1735228098923" duration="11133000" />
       <workItem from="1735293880474" duration="5460000" />
-      <workItem from="1735311832284" duration="7180000" />
+      <workItem from="1735311832284" duration="8456000" />
     </task>
     <servers />
   </component>

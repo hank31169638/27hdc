@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import ScrollToTopButton from "@/components/winter_vacation/index_components/scroll-to-top-button";
 
 interface DanceStyle {
     name: string;
@@ -8,7 +9,7 @@ interface DanceStyle {
 }
 
 interface DanceStyleLineProps {
-    onStyleClick?: (id: string) => void; // 保留可選的 onStyleClick
+    onStyleClick?: (id: string) => void;
 }
 
 const DanceStyleLine: React.FC<DanceStyleLineProps> = ({onStyleClick}) => {
@@ -33,7 +34,7 @@ const DanceStyleLine: React.FC<DanceStyleLineProps> = ({onStyleClick}) => {
 
     return (
         <div className="relative w-full flex flex-col sm:flex-row items-center justify-center">
-            {/* 中央線 */}
+            {/* white line */}
             <div
                 className="
                     absolute
@@ -43,7 +44,7 @@ const DanceStyleLine: React.FC<DanceStyleLineProps> = ({onStyleClick}) => {
                 "
             />
 
-            {/* 節點容器 */}
+            {/* container */}
             <div
                 className="flex flex-col
                 justify-between items-center px-8
@@ -59,7 +60,7 @@ const DanceStyleLine: React.FC<DanceStyleLineProps> = ({onStyleClick}) => {
                         key={style.id}
                         className="relative group my-8 sm:px-32 sm:my-0"
                     >
-                        {/* 圓形節點 */}
+                        {/* circle */}
                         <div
                             className="
                                 w-4 h-4 bg-white rounded-full relative z-10
@@ -69,7 +70,7 @@ const DanceStyleLine: React.FC<DanceStyleLineProps> = ({onStyleClick}) => {
                             onClick={() => handleCircleClick(style.id)}
                         />
 
-                        {/* 點擊後顯示的信息 */}
+                        {/* the info after circle get click */}
                         {selectedId === style.id && (
                             <div
                                 className="
@@ -84,7 +85,7 @@ const DanceStyleLine: React.FC<DanceStyleLineProps> = ({onStyleClick}) => {
 
                                 "
                             >
-                                {/* 圖片容器 */}
+                                {/* img container */}
                                 <div className="w-32 h-40 bg-white rounded-lg overflow-hidden
                                 duration-300 hover:scale-110 p-2
                                 "
@@ -94,7 +95,7 @@ const DanceStyleLine: React.FC<DanceStyleLineProps> = ({onStyleClick}) => {
                                     <img src={style.image} alt={style.name} className="w-full h-full object-cover pb-8"/>
                                 </div>
 
-                                {/* 舞種名稱 */}
+                                {/* style name */}
                                 <div className="text-white text-center mt-2">
                                     {style.name}
                                 </div>
@@ -103,6 +104,7 @@ const DanceStyleLine: React.FC<DanceStyleLineProps> = ({onStyleClick}) => {
                     </div>
                 ))}
             </div>
+            <ScrollToTopButton/>
         </div>
     );
 };
